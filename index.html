@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="This is a fun api based language translation app. Use this to translate english language to some other funny ones and have fun.">
+	<meta name="keywords"
+		content="translation, fun translation, funny language, pirates language, yoda language, groot language, navi language">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<title>Fun Translation App</title>
+</head>
+
+<body>
+	<nav>
+		<h1>Let's Translate Something</h1>
+	</nav>
+	<label for="api">Choose Language to Translate:</label>
+	<select name="api" id="trns-api">
+		<option value="pirates">Pirates</option>
+		<option value="groot">Groot</option>
+		<option value="navi">Navi</option>
+		<option value="yoda">Yoda</option>
+	</select>
+	<textarea name="text" id="usr-input" cols="30" rows="7" placeholder="Enter your text to convert it"></textarea>
+	<br />
+
+	<button class="btn" id="submit">
+    <div>
+        <div class="pencil"></div>
+        <div class="folder">
+            <div class="top">
+                <svg viewBox="0 0 24 27">
+                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                </svg>
+            </div>
+            <div class="paper"></div>
+        </div>
+    </div>
+    Translate
+</button>
+
+	<h2>Your Translated Text:</h2>
+	<textarea name="output" id="result" cols="30" rows="7" placeholder="Your translated text goes here"></textarea>
+	<div class="about">
+		<h3>About</h3>
+		<p>
+			My Creamy Web App supports translating English to many Fun languages so just
+			translate your text, share with your friends and confuse them.
+		</p>
+	</div>
+	<footer>
+		<a href="https://www.instagram.com/deeshansharma_" target="_blank">Instagram</a>
+		<a href="https://www.github.com/DeeshanSharma" target="_blank">GitHub</a>
+		<a href="https://twitter.com/DeeshanSharma_" target="_blank">Twitter</a>
+		<p>Made with 💜</p>
+		<p>©2020 Deeshan Sharma</p>
+	</footer>
+	<script src="js/myapp.js"></script>
+</body>
+
+</html>
